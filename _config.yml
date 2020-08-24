@@ -35,7 +35,7 @@ plugins:
   - jekyll-seo-tag
 
 author:
-  name: "71xx"
+  name: "Finn Lestrange"
   avatar: "/profile.jpg"
   bio: "IB Computer Science Portfolio" # Note: Markdown is allowed
   location: "UK"
