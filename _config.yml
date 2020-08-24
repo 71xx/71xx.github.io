@@ -29,7 +29,7 @@ github_username:  71xn
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.19.3"
-minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "default", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "air" # "dark", "aqua", "contrast", "default", "dirt", "neon", "mint", "plum" "sunrise"
 plugins:
   - jekyll-include-cache
   - jekyll-seo-tag
