@@ -10,6 +10,8 @@ toc_icon: "fab fa-fw fa-th-list"
 
 ## Code Page Samples
 
+Currently this page is just showing samples of what my code page will look like but eventually it will have a gigantic table of contents and external links to my code on github / gitlab etc.
+
 ### GitHub Gist Example
 
 {% gist 00296db9fe8d812cfb961e8031029ce6 %}

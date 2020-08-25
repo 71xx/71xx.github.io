@@ -21,10 +21,9 @@
 title: "Finn's IB Comp Sci Portfolio"
 email: flestrange@isa.aberdeen.sch.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  IB Computer Science Student
+  IB Computer Science Portfolio
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://71xx.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/profile.jpg"
 search: true
 twitter_username: 71xxn
 github_username:  71xn
@@ -40,7 +39,7 @@ plugins:
 author:
   name: "Finn Lestrange"
   avatar: "/profile.jpg"
-  bio: "IB Computer Science Portfolio" # Note: Markdown is allowed
+  bio: "IB Computer Science Student" # Note: Markdown is allowed
   location: "UK"
   links:
     - label: "GitHub"
