@@ -10,9 +10,6 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.4"
   overlay_image: /images/header-1.png
-  actions:
-    - label: "Download"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [**Finn Lestrange**](https://github.com/71xn)"
 excerpt: "Hello and welcome to my IB Computer Science Portfolio, using the navigation or the search above you can look through all my work done throughout the IB Computer Science course."
 intro: 
