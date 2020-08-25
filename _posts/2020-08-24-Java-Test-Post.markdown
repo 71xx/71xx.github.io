@@ -1,9 +1,9 @@
 ---
 layout: single
-title:  "Databases Intro"
+title:  "Java Introduction"
 date:   2020-08-22 08:49:23 +0100
-categories: Databases
-excerpt: Post about the start of the databases unit.
+categories: Java
+excerpt: Post about the start of the Java unit.
 ---
 
 ## Test Post

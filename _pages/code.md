@@ -10,6 +10,10 @@ toc_icon: "fab fa-fw fa-th-list"
 
 ## Code Page Samples
 
+### GitHub Gist Example
+
+{% gist 00296db9fe8d812cfb961e8031029ce6 %}
+
 ### Java
 
 {% highlight java linenos %}
