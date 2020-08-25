@@ -30,7 +30,7 @@ github_username:  71xn
 include: ["_pages"]
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.19.3"
+remote_theme: "mmistakes/minimal-mistakes@4.20.1"
 minimal_mistakes_skin: "air" # "dark", "aqua", "contrast", "default", "dirt", "neon", "mint", "plum" "sunrise"
 plugins:
   - jekyll-include-cache
