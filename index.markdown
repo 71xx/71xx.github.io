@@ -43,7 +43,7 @@ feature_row2:
   - image_path: /profile.jpg
     alt: "profile img"
     title: "About Me"
-    excerpt: 'I am 17 years old and I enjoy playing CTFs and cyber sec in general. I really enjoy attacking active directory environments and programming for use in offensive situations.'
+    excerpt: 'I am 17 years old and I enjoy playing CTFs and cyber sec in general. I really enjoy attacking `active directory environments` and programming for use in offensive situations.'
 
 
 ---
