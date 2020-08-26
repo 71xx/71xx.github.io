@@ -9,7 +9,7 @@
 <lastmod>2020-08-07T08:49:23+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/math/Math-Intro/</loc>
+<loc>http://localhost:4000/math/Math-Test-Page/</loc>
 <lastmod>2020-08-07T08:49:23+01:00</lastmod>
 </url>
 <url>
@@ -17,11 +17,14 @@
 <lastmod>2020-08-07T08:49:23+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/math/Math-Intro-2/</loc>
-<lastmod>2020-08-26T08:49:23+01:00</lastmod>
+<loc>http://localhost:4000/history/German-Foreign-Policy/</loc>
+<lastmod>2020-08-26T12:49:23+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/archive/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/categories/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/compsci/code</loc>
@@ -31,6 +34,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/compsci/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/history/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
@@ -43,5 +49,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/compsci/references/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tags/</loc>
 </url>
 </urlset>

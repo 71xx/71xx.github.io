@@ -12,3 +12,5 @@ This is a page where I will have a directory of links grouped by category of thi
 ## Web Dev
 
 [DevHints Jekyll Cheat Sheet](https://devhints.io/jekyll) - Quite frankly this site would not be here without this cheat sheet
+
+[MathJax Jekyll Implementation](http://zjuwhw.github.io/2017/06/04/MathJax.html) - Helped with getting euqation support

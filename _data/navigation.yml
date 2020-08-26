@@ -1,15 +1,13 @@
 # main links
 main:
-  - title: "Notes"
-    url: /
   - title: "Comp Sci"
     url: /compsci/
   - title: "Math"
     url: /math/
-  - title: "Physics"
-    url: /physics/
   - title: "History"
     url: /history
+  - title: "Physics"
+    url: /physics/
   - title: "Archive"
     url: /archive
 

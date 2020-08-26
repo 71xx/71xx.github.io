@@ -40,9 +40,7 @@ feature_row2:
   - image_path: /images/profile.jpg
     alt: "profile img"
     title: "About Me"
-    excerpt: 'I am 17 years old and I enjoy playing CTFs and cyber sec in general. I really enjoy attacking `active directory environments` and programming for use in offensive situations.'
-
-
+    excerpt: "Hello, I'm Finn, I am 17 years old and I enjoy playing [CTFs](https://ctftime.org) and [Hack The Box](https://hackthebox.eu) and programming for use in offensive situations. I also enjoy history and in particular the Chinese Civil War. I hope this portfolio is some use to you and any suggestions or queryies please contect me via the email link [here](mailto:flestrange@isa.aberdeen.sch.uk)."
 ---
 
 {% include feature_row id="intro" type="center" %}

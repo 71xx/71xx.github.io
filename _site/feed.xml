@@ -1,1 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-26T12:44:31+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Finn Lestrange’s IB Portfolio</title><subtitle>Finn Lestrange's IB Portfolio</subtitle><author><name>Finn Lestrange</name></author><entry><title type="html">Math Notes - 2</title><link href="http://localhost:4000/math/Math-Intro-2/" rel="alternate" type="text/html" title="Math Notes - 2" /><published>2020-08-26T08:49:23+01:00</published><updated>2020-08-26T08:49:23+01:00</updated><id>http://localhost:4000/math/Math-Intro-2</id><content type="html" xml:base="http://localhost:4000/math/Math-Intro-2/">&lt;h2 id=&quot;test-2---math&quot;&gt;Test 2 - Math!&lt;/h2&gt;</content><author><name>Finn Lestrange</name></author><category term="math" /><summary type="html">All Notes Relating to the IB Math AA HL Course</summary></entry><entry><title type="html">Algorithms Intro</title><link href="http://localhost:4000/compsci/Algorithms-Intro/" rel="alternate" type="text/html" title="Algorithms Intro" /><published>2020-08-07T08:49:23+01:00</published><updated>2020-08-07T08:49:23+01:00</updated><id>http://localhost:4000/compsci/Algorithms-Intro</id><content type="html" xml:base="http://localhost:4000/compsci/Algorithms-Intro/">&lt;h2 id=&quot;algorithms-it-worked&quot;&gt;Algorithms, it worked!&lt;/h2&gt;</content><author><name>Finn Lestrange</name></author><category term="compsci" /><category term="algorithms" /><summary type="html">Algorithms Intro</summary></entry><entry><title type="html">Databases Intro</title><link href="http://localhost:4000/compsci/Databases-Intro/" rel="alternate" type="text/html" title="Databases Intro" /><published>2020-08-07T08:49:23+01:00</published><updated>2020-08-07T08:49:23+01:00</updated><id>http://localhost:4000/compsci/Databases-Intro</id><content type="html" xml:base="http://localhost:4000/compsci/Databases-Intro/">&lt;h2 id=&quot;welcome-it-worked&quot;&gt;Welcome! It Worked!&lt;/h2&gt;</content><author><name>Finn Lestrange</name></author><category term="compsci" /><category term="databases" /><summary type="html">Intro to the IB Comp Sci Course</summary></entry><entry><title type="html">Math Notes - 1</title><link href="http://localhost:4000/math/Math-Intro/" rel="alternate" type="text/html" title="Math Notes - 1" /><published>2020-08-07T08:49:23+01:00</published><updated>2020-08-07T08:49:23+01:00</updated><id>http://localhost:4000/math/Math-Intro</id><content type="html" xml:base="http://localhost:4000/math/Math-Intro/">&lt;h2 id=&quot;test-1---math&quot;&gt;Test 1 - Math!&lt;/h2&gt;</content><author><name>Finn Lestrange</name></author><category term="math" /><summary type="html">All Notes Relating to the IB Math AA HL Course</summary></entry><entry><title type="html">Physics Notes - 1</title><link href="http://localhost:4000/physics/Physics-Intro/" rel="alternate" type="text/html" title="Physics Notes - 1" /><published>2020-08-07T08:49:23+01:00</published><updated>2020-08-07T08:49:23+01:00</updated><id>http://localhost:4000/physics/Physics-Intro</id><content type="html" xml:base="http://localhost:4000/physics/Physics-Intro/">&lt;h2 id=&quot;test-1---physics&quot;&gt;Test 1 - Physics!&lt;/h2&gt;</content><author><name>Finn Lestrange</name></author><category term="physics" /><summary type="html">All Notes Relating to the IB Physics HL Course</summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-26T16:19:40+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Finn Lestrange’s IB Portfolio</title><subtitle>Finn Lestrange's IB Portfolio</subtitle><author><name>Finn Lestrange</name></author><entry><title type="html">German Foreign Policy</title><link href="http://localhost:4000/history/German-Foreign-Policy/" rel="alternate" type="text/html" title="German Foreign Policy" /><published>2020-08-26T12:49:23+01:00</published><updated>2020-08-26T12:49:23+01:00</updated><id>http://localhost:4000/history/German-Foreign-Policy</id><content type="html" xml:base="http://localhost:4000/history/German-Foreign-Policy/">&lt;h1 id=&quot;german-foreign-policy-1870---1890-notes&quot;&gt;German Foreign Policy 1870 - 1890 Notes:&lt;/h1&gt;
+
+&lt;h2 id=&quot;french-isolation&quot;&gt;French Isolation&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Germany wanted france to remain isolated&lt;/li&gt;
+  &lt;li&gt;Bismarck wants all powers except france to need them&lt;/li&gt;
+  &lt;li&gt;Should alliances be formed, Germany would be in the largest group&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;peace&quot;&gt;Peace&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Germany wanted to remain at peace with its neighbours.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;domestic-policy-pressures&quot;&gt;Domestic Policy Pressures&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Foreign policy does not operate in isolation&lt;/li&gt;
+  &lt;li&gt;Some historians have argued that domestic considerations were key in determining Germany foreign policy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how-effective-was-foreign-policy&quot;&gt;How effective was foreign policy&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Bismarck - pragmatist (did whatever he thought necessary)&lt;/li&gt;
+  &lt;li&gt;Policy  - convoluted&lt;/li&gt;
+  &lt;li&gt;1879 – 1885 – relations with France were cordial (good)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bismarck-was-flexible&quot;&gt;Bismarck was flexible?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Germany was “a satiated power” in Bismarck’s words.&lt;/li&gt;
+  &lt;li&gt;Interested in keeping peace and alliances.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;alliances&quot;&gt;Alliances&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Italy (1882)&lt;/li&gt;
+  &lt;li&gt;Romania(1883)&lt;/li&gt;
+  &lt;li&gt;Three Emperors Alliance (1881)&lt;/li&gt;
+  &lt;li&gt;Reinsurance treaty (1887)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;complex-alliances&quot;&gt;Complex Alliances&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mediterranean Agreements between Gt. Britain, AH, and Italy.  Although these did not involve Germany – the fact that their allies were linked to GB was a link!&lt;/li&gt;
+  &lt;li&gt;Complex series of agreements denied the French allies&lt;/li&gt;
+  &lt;li&gt;Bismarck was only one who understood them and so had a diplomatic advantage.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;by-1890&quot;&gt;By 1890&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Bismarck sucessful in keeping France isolatied&lt;/li&gt;
+  &lt;li&gt;Diplomatic relations still good&lt;/li&gt;
+  &lt;li&gt;Not a free agent and had lot’s of domestic political pressures&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Finn Lestrange</name></author><category term="history" /><category term="germany" /><summary type="html">German Foreign Policy</summary></entry><entry><title type="html">Algorithms Intro</title><link href="http://localhost:4000/compsci/Algorithms-Intro/" rel="alternate" type="text/html" title="Algorithms Intro" /><published>2020-08-07T08:49:23+01:00</published><updated>2020-08-07T08:49:23+01:00</updated><id>http://localhost:4000/compsci/Algorithms-Intro</id><content type="html" xml:base="http://localhost:4000/compsci/Algorithms-Intro/">&lt;h2 id=&quot;algorithms-it-worked&quot;&gt;Algorithms, it worked!&lt;/h2&gt;</content><author><name>Finn Lestrange</name></author><category term="compsci" /><category term="algorithms" /><summary type="html">Algorithms Intro</summary></entry><entry><title type="html">Databases Intro</title><link href="http://localhost:4000/compsci/Databases-Intro/" rel="alternate" type="text/html" title="Databases Intro" /><published>2020-08-07T08:49:23+01:00</published><updated>2020-08-07T08:49:23+01:00</updated><id>http://localhost:4000/compsci/Databases-Intro</id><content type="html" xml:base="http://localhost:4000/compsci/Databases-Intro/">&lt;h2 id=&quot;welcome-it-worked&quot;&gt;Welcome! It Worked!&lt;/h2&gt;</content><author><name>Finn Lestrange</name></author><category term="compsci" /><category term="databases" /><summary type="html">Intro to the IB Comp Sci Course</summary></entry><entry><title type="html">Math Test Page</title><link href="http://localhost:4000/math/Math-Test-Page/" rel="alternate" type="text/html" title="Math Test Page" /><published>2020-08-07T08:49:23+01:00</published><updated>2020-08-07T08:49:23+01:00</updated><id>http://localhost:4000/math/Math-Test-Page</id><content type="html" xml:base="http://localhost:4000/math/Math-Test-Page/">&lt;h2 id=&quot;math-testing-page&quot;&gt;Math Testing Page!&lt;/h2&gt;
+
+&lt;h3 id=&quot;mathjax-support-test&quot;&gt;MathJax Support Test&lt;/h3&gt;
+
+\[mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}\]</content><author><name>Finn Lestrange</name></author><category term="math" /><summary type="html">All Notes Relating to the IB Math AA HL Course</summary></entry><entry><title type="html">Physics Notes - 1</title><link href="http://localhost:4000/physics/Physics-Intro/" rel="alternate" type="text/html" title="Physics Notes - 1" /><published>2020-08-07T08:49:23+01:00</published><updated>2020-08-07T08:49:23+01:00</updated><id>http://localhost:4000/physics/Physics-Intro</id><content type="html" xml:base="http://localhost:4000/physics/Physics-Intro/">&lt;h2 id=&quot;test-1---physics&quot;&gt;Test 1 - Physics!&lt;/h2&gt;</content><author><name>Finn Lestrange</name></author><category term="physics" /><summary type="html">All Notes Relating to the IB Physics HL Course</summary></entry></feed>
