@@ -8,8 +8,11 @@ main:
     url: /math/
   - title: "Physics"
     url: /physics/
+  - title: "History"
+    url: /history
   - title: "Archive"
     url: /archive
+
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
