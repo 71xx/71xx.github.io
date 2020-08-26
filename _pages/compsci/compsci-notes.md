@@ -10,7 +10,7 @@ title: Computer Science Notes
 <ul>
   {% for post in site.categories.compsci %}
     {% if post.url %}
-        <li><a href="{{ post.url }}">{{ post.title }} - {{ post.date }}</a></li>
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endif %}
   {% endfor %}
 </ul>

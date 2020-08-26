@@ -11,7 +11,7 @@ All the Physics notes below are categorised by date:
 <ul>
   {% for post in site.categories.physics %}
     {% if post.url %}
-        <li><a href="{{ post.url }}">{{ post.title }} - {{ post.date }}</a></li>
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endif %}
   {% endfor %}
 </ul>

@@ -10,7 +10,7 @@ All the notes below are categorised by date:
 <ul>
   {% for post in site.categories.math %}
     {% if post.url %}
-        <li><a href="{{ post.url }}">{{ post.title }} - {{ post.date }}</a></li>
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endif %}
   {% endfor %}
 </ul>
