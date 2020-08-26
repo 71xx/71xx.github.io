@@ -1,6 +1,6 @@
 ---
 layout: home
 author_profile: true
-permalink: /posts/
+permalink: /archive/
 title: Posts
 ---

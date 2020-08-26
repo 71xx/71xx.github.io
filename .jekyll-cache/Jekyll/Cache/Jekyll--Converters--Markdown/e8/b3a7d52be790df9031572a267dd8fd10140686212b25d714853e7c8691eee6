@@ -1,0 +1,13 @@
+I"<ul class="toc__menu">
+  <li><a href="#code-page-samples">Code Page Samples</a>
+    <ul>
+      <li><a href="#github-gist-example">GitHub Gist Example</a></li>
+      <li><a href="#java">Java</a></li>
+      <li><a href="#python">Python</a></li>
+      <li><a href="#ruby">Ruby</a></li>
+      <li><a href="#rust">Rust</a></li>
+      <li><a href="#c">C++</a></li>
+    </ul>
+  </li>
+</ul>
+:ET
