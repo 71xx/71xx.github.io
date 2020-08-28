@@ -8,6 +8,8 @@ toc_label: "Contents"
 toc_icon: "fab fa-fw fa-th-list"
 ---
 
+![](/images/site-article/octocat.jpg)
+
 ## What is Static Site and why Jekyll
 
 A static site is a website that is generated and built before it is served up to the world on a web server, this means it is light on resources, lightning fast and very responsive. Jekyll is a static site generator written in ruby and it officially supported by GitHub Pages, you can read more about that [here](https://jekyllrb.com/). It is somewhat easy to set-up but as mentioned below, you need some knowledge with `Git` and GitHub to set this up properly.
