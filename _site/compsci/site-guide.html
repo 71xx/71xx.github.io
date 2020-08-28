@@ -1,0 +1,609 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Guide to making a Static Site with Github Pages - Finn Lestrange’s IB Portfolio</title>
+<meta name="description" content="Finn Lestrange’s IB Portfolio">
+
+
+  <meta name="author" content="Finn Lestrange">
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Finn Lestrange's IB Portfolio">
+<meta property="og:title" content="Guide to making a Static Site with Github Pages">
+<meta property="og:url" content="http://localhost:4000/compsci/site-guide">
+
+
+  <meta property="og:description" content="Finn Lestrange’s IB Portfolio">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/compsci/site-guide">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Finn Lestrange",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Finn Lestrange's IB Portfolio Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Finn Lestrange's IB Portfolio
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/compsci/">Computer Science</a>
+            </li><li class="masthead__menu-item">
+              <a href="/math/">Math</a>
+            </li><li class="masthead__menu-item">
+              <a href="/history">History</a>
+            </li><li class="masthead__menu-item">
+              <a href="/physics/">Physics</a>
+            </li><li class="masthead__menu-item">
+              <a href="/archive">Archive</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/images/profile.jpg" alt="Finn Lestrange" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Finn Lestrange</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>IB Computer Science HL, Math AA HL and Physics HL Student</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">UK</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:flestrange@isa.aberdeen.sch.uk" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://71xn.github.io" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/71xn" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://gitlab.com/71xn" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-gitlab" aria-hidden="true"></i><span class="label">GitLab</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Guide to making a Static Site with Github Pages">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Guide to making a Static Site with Github Pages
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-fab fa-fw fa-th-list"></i> Contents</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#prerequisites">Prerequisites</a></li>
+  <li><a href="#creating-a-repo">Creating a Repo</a>
+    <ul>
+      <li><a href="#cloning-the-repo">Cloning the Repo</a></li>
+    </ul>
+  </li>
+  <li><a href="#installing-jekyll">Installing Jekyll</a></li>
+  <li><a href="#installing-our-theme---minimal-mistakes">Installing our Theme - Minimal Mistakes</a>
+    <ul>
+      <li><a href="#cleaning-up-the-repo">Cleaning Up the Repo</a></li>
+      <li><a href="#setting-up-the-gemfile">Setting up the Gemfile</a></li>
+    </ul>
+  </li>
+  <li><a href="#setting-up-the-site">Setting Up the Site</a>
+    <ul>
+      <li><a href="#setting-up-the-author-profile">Setting up the Author Profile</a></li>
+      <li><a href="#setting-up-the-footer">Setting Up the Footer</a></li>
+      <li><a href="#setting-defaults">Setting Defaults</a></li>
+    </ul>
+  </li>
+  <li><a href="#pushing-the-site-to-github">Pushing the site to GitHub</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="prerequisites">Prerequisites</h2>
+<ul>
+  <li>Some basic knowledge of the terminal and how to use git</li>
+  <li><a href="https://git-scm.com/download/win">Git for Windows</a></li>
+  <li>A code / text editor, my choice is <a href="https://www.sublimetext.com/3">Sublime Text 3</a></li>
+  <li>A GitHub Account - <a href="https://github.com/join?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F&amp;source=header-home">Register Here</a></li>
+  <li><a href="https://rubyinstaller.org/">Ruby DevKit</a></li>
+</ul>
+
+<h2 id="creating-a-repo">Creating a Repo</h2>
+
+<p>Firstly, head over to <a href="https://github.com">GitHub</a>, sign in and hit the plus button next to your avatar, or go to <a href="http://github.com/new">github.com/new</a>. Now name your repo, <code class="language-plaintext highlighter-rouge">&lt;username&gt;.github.io</code> and make sure it has a README.</p>
+
+<p><img src="/images/site-article/2020-08-28%2011_03_26-Create%20a%20New%20Repository.png" alt="" /></p>
+
+<h3 id="cloning-the-repo">Cloning the Repo</h3>
+
+<p>Now that you have a repo, go ahead and clone it to your computer, for this you will need <code class="language-plaintext highlighter-rouge">git</code> installed and access to a <code class="language-plaintext highlighter-rouge">terminal / powershell</code> session.</p>
+
+<p><img src="/images/site-article/repo.png" alt="" /></p>
+
+<p><img src="/images/site-article/clone-1.png" alt="" /></p>
+
+<h2 id="installing-jekyll">Installing Jekyll</h2>
+
+<p>Now that we have a local copy of our repo we can begin by creating a new <a href="https://jekyll-rb.org">Jekyll Site</a></p>
+
+<p>First we need to make sure that we have <code class="language-plaintext highlighter-rouge">ruby</code> installed, to do this type</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">ruby</span> <span class="o">--</span><span class="n">version</span></code></pre></figure>
+
+<p>This should return something that looks like this,</p>
+
+<p><img src="/images/site-article/ruby-v.png" alt="" /></p>
+
+<p>If so then we need to install, <code class="language-plaintext highlighter-rouge">bundler</code> and <code class="language-plaintext highlighter-rouge">jekyll</code></p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">gem</span> <span class="n">install</span> <span class="n">bundler</span>
+<span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span></code></pre></figure>
+
+<h2 id="installing-our-theme---minimal-mistakes">Installing our Theme - Minimal Mistakes</h2>
+
+<p>The theme we will be using is called <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes</a> it is a flexible two column Jekyll theme with support for many different layouts and most importantly, support for GitHub Pages. To get started, we need to head over to the <a href="https://github.com/mmistakes/minimal-mistakes">GitHub Repo</a> and download a <code class="language-plaintext highlighter-rouge">.zip</code> of the mater branch.</p>
+
+<p><img src="/images/site-article/mmistakes.png" alt="" /></p>
+
+<p>Now move all the files from the downloaded zip to your cloned repo folder.</p>
+
+<p><img src="/images/site-article/copy-files.png" alt="" /></p>
+
+<h3 id="cleaning-up-the-repo">Cleaning Up the Repo</h3>
+
+<p>Now that we have the necessary files, we can delete the unnecessary ones.</p>
+<ul>
+  <li>.editorconfig</li>
+  <li>.gitattributes</li>
+  <li>.github</li>
+  <li>/docs</li>
+  <li>/test</li>
+  <li>CHANGELOG.md</li>
+  <li>minimal-mistakes-jekyll.gemspec</li>
+  <li>README.md</li>
+  <li>screenshot-layouts.png</li>
+  <li>screenshot.png</li>
+</ul>
+
+<p><img src="/images/site-article/files-to-remove.png" alt="" /></p>
+
+<h3 id="setting-up-the-gemfile">Setting up the Gemfile</h3>
+
+<p>Now that we have all required files we need to start editing some of them, open the <code class="language-plaintext highlighter-rouge">Gemfile</code> with a text editor of your choice, then replace the contents with the following.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">source</span> <span class="s2">"https://rubygems.org"</span>
+
+<span class="c1"># Hello! This is where you manage which Jekyll version is used to run.</span>
+<span class="c1"># When you want to use a different version, change it below, save the</span>
+<span class="c1"># file and run `bundle install`. Run Jekyll with `bundle exec`, like so:</span>
+<span class="c1">#</span>
+<span class="c1">#     bundle exec jekyll serve</span>
+<span class="c1">#</span>
+<span class="c1"># This will help ensure the proper Jekyll version is running.</span>
+<span class="c1"># Happy Jekylling!</span>
+
+<span class="c1"># gem "github-pages", group: :jekyll_plugins</span>
+
+<span class="c1"># To upgrade, run `bundle update`.</span>
+
+<span class="n">gem</span> <span class="s2">"jekyll"</span>
+<span class="n">gem</span> <span class="s2">"minimal-mistakes-jekyll"</span>
+
+<span class="c1"># The following plugins are automatically loaded by the theme-gem:</span>
+<span class="c1">#   gem "jekyll-paginate"</span>
+<span class="c1">#   gem "jekyll-sitemap"</span>
+<span class="c1">#   gem "jekyll-gist"</span>
+<span class="c1">#   gem "jekyll-feed"</span>
+<span class="c1">#   gem "jekyll-include-cache"</span>
+<span class="c1">#</span>
+<span class="c1"># If you have any other plugins, put them here!</span>
+<span class="n">group</span> <span class="ss">:jekyll_plugins</span> <span class="k">do</span>
+<span class="k">end</span></code></pre></figure>
+
+<p>Save the file and run <code class="language-plaintext highlighter-rouge">bundle install</code> in your terminal window to install all the required ruby gems.</p>
+
+<p><img src="/images/site-article/bundle-install.png" alt="" /></p>
+
+<p>Now we are ready to setup the site using the <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+
+<h2 id="setting-up-the-site">Setting Up the Site</h2>
+
+<p>Open the <code class="language-plaintext highlighter-rouge">_config.yml</code> file in a text editor and change the fields to the correct and relevant information, making sure to uncomment the <code class="language-plaintext highlighter-rouge">remote theme</code> line, so it works properly with GitHub pages.</p>
+
+<p><img src="/images/site-article/config-1.png" alt="" /></p>
+
+<h3 id="setting-up-the-author-profile">Setting up the Author Profile</h3>
+
+<p>The author profile appears at the side of each post on your website and allows a reader to quickly find you on other platforms, it looks something like this.</p>
+
+<p><img src="/images/site-article/profile-1.png" alt="" /></p>
+
+<p>To set this up edit these fields in the config file.</p>
+
+<p><img src="/images/site-article/config-2.png" alt="" /></p>
+
+<h3 id="setting-up-the-footer">Setting Up the Footer</h3>
+
+<p>To edit the footer, change these fields in the config file.</p>
+
+<p><img src="/images/site-article/config-3.png" alt="" /></p>
+
+<h3 id="setting-defaults">Setting Defaults</h3>
+
+<p>Default are settings that are applied to every post or page on your site and it saves you time as it means you don’t have to type this out each time you want to make a new post.</p>
+
+<p>Below is what I use and recommend as defaults for posts.</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">defaults</span><span class="pi">:</span>
+  <span class="c1"># _posts</span>
+  <span class="pi">-</span> <span class="na">scope</span><span class="pi">:</span>
+      <span class="na">path</span><span class="pi">:</span> <span class="s2">"</span><span class="s">"</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">posts</span>
+    <span class="na">values</span><span class="pi">:</span>
+      <span class="na">layout</span><span class="pi">:</span> <span class="s">single</span>
+      <span class="na">author_profile</span><span class="pi">:</span> <span class="no">true</span>
+      <span class="na">toc</span><span class="pi">:</span> <span class="no">true</span>
+      <span class="na">toc_label</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Contents"</span>
+      <span class="na">toc_icon</span><span class="pi">:</span> <span class="s2">"</span><span class="s">fab</span><span class="nv"> </span><span class="s">fa-fw</span><span class="nv"> </span><span class="s">fa-th-list"</span></code></pre></figure>
+
+<p><img src="/images/site-article/config-4.png" alt="" /></p>
+
+<h2 id="pushing-the-site-to-github">Pushing the site to GitHub</h2>
+
+<p>Now that we have built the basics of the site we can push the files to GitHub, to do this we need to first add all the files with:</p>
+
+<figure class="highlight"><pre><code class="language-powershell" data-lang="powershell"><span class="nf">git</span><span class="w"> </span><span class="nx">add</span><span class="w"> </span><span class="o">.</span></code></pre></figure>
+
+<p><img src="/images/site-article/git-1.png" alt="" /></p>
+
+<p>Then we need to <code class="language-plaintext highlighter-rouge">commit</code> the files with a message that tells you what you have changed since the last commit, since this is our first commit we can just have a commit message that says, <code class="language-plaintext highlighter-rouge">initial commit</code></p>
+
+<figure class="highlight"><pre><code class="language-powershell" data-lang="powershell"><span class="nf">git</span><span class="w"> </span><span class="nx">commit</span><span class="w"> </span><span class="nt">-m</span><span class="w"> </span><span class="s2">"initial commit"</span></code></pre></figure>
+
+<p><img src="/images/site-article/git-2.png" alt="" /></p>
+
+<p>Then finally we need to push the committed changes to GitHub with <code class="language-plaintext highlighter-rouge">git push</code>, if this is your first time using git on Windows it may ask you to sign into GitHub before it can push the changes.</p>
+
+<figure class="highlight"><pre><code class="language-powershell" data-lang="powershell"><span class="nf">git</span><span class="w"> </span><span class="nx">push</span><span class="w"> </span><span class="nx">origin</span></code></pre></figure>
+
+<p><img src="/images/site-article/git-3.png" alt="" /></p>
+
+<p>If all went well you should now see your files in your GitHub Repo, and a small notification under the environments tab that says <code class="language-plaintext highlighter-rouge">github-pages</code> Active.</p>
+
+<p><img src="/images/site-article/git-4.png" alt="" /></p>
+
+<p>Your site is now live and you can view it by going to <a href="https://71xx.github.io">username.github.io</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/71xn" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://gitlab.com/71xn" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-gitlab" aria-hidden="true"></i> GitLab</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Finn Lestrange. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+</html>

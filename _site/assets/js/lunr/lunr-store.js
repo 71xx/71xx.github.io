@@ -28,4 +28,10 @@ var store = [{
         "tags": ["germany"],
         "url": "http://localhost:4000/history/German-Foreign-Policy/",
         "teaser": null
+      },{
+        "title": "Bismarck and the German Empire Reading HW",
+        "excerpt":"Bismarck and the German Empire - 1871-1890 Conflict with the catholic church, felt they had too much power 1864 - Syllabus of Errors, denounced church and education affairs 1971 - Kulturekampf, Bismarck w/ liberals fought church, bishops exiled or arrested, futile effort, realised danger was in organised Catholicism. Rapid industrial...","categories": ["history"],
+        "tags": ["germany"],
+        "url": "http://localhost:4000/history/Bismarck-German-Empire/",
+        "teaser": null
       }]

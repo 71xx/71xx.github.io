@@ -1,0 +1,175 @@
+I"Ã)<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+  <li>Some basic knowledge of the terminal and how to use git</li>
+  <li><a href="https://git-scm.com/download/win">Git for Windows</a></li>
+  <li>A code / text editor, my choice is <a href="https://www.sublimetext.com/3">Sublime Text 3</a></li>
+  <li>A GitHub Account - <a href="https://github.com/join?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F&amp;source=header-home">Register Here</a></li>
+  <li><a href="https://rubyinstaller.org/">Ruby DevKit</a></li>
+</ul>
+
+<h2 id="creating-a-repo">Creating a Repo</h2>
+
+<p>Firstly, head over to <a href="https://github.com">GitHub</a>, sign in and hit the plus button next to your avatar, or go to <a href="http://github.com/new">github.com/new</a>. Now name your repo, <code class="language-plaintext highlighter-rouge">&lt;username&gt;.github.io</code> and make sure it has a README.</p>
+
+<p><img src="/images/site-article/2020-08-28%2011_03_26-Create%20a%20New%20Repository.png" alt="" /></p>
+
+<h3 id="cloning-the-repo">Cloning the Repo</h3>
+
+<p>Now that you have a repo, go ahead and clone it to your computer, for this you will need <code class="language-plaintext highlighter-rouge">git</code> installed and access to a <code class="language-plaintext highlighter-rouge">terminal / powershell</code> session.</p>
+
+<p><img src="/images/site-article/repo.png" alt="" /></p>
+
+<p><img src="/images/site-article/clone-1.png" alt="" /></p>
+
+<h2 id="installing-jekyll">Installing Jekyll</h2>
+
+<p>Now that we have a local copy of our repo we can begin by creating a new <a href="https://jekyll-rb.org">Jekyll Site</a></p>
+
+<p>First we need to make sure that we have <code class="language-plaintext highlighter-rouge">ruby</code> installed, to do this type</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">ruby</span> <span class="o">--</span><span class="n">version</span></code></pre></figure>
+
+<p>This should return something that looks like this,</p>
+
+<p><img src="/images/site-article/ruby-v.png" alt="" /></p>
+
+<p>If so then we need to install, <code class="language-plaintext highlighter-rouge">bundler</code> and <code class="language-plaintext highlighter-rouge">jekyll</code></p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">gem</span> <span class="n">install</span> <span class="n">bundler</span>
+<span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span></code></pre></figure>
+
+<h2 id="installing-our-theme---minimal-mistakes">Installing our Theme - Minimal Mistakes</h2>
+
+<p>The theme we will be using is called <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes</a> it is a flexible two column Jekyll theme with support for many different layouts and most importantly, support for GitHub Pages. To get started, we need to head over to the <a href="https://github.com/mmistakes/minimal-mistakes">GitHub Repo</a> and download a <code class="language-plaintext highlighter-rouge">.zip</code> of the mater branch.</p>
+
+<p><img src="/images/site-article/mmistakes.png" alt="" /></p>
+
+<p>Now move all the files from the downloaded zip to your cloned repo folder.</p>
+
+<p><img src="/images/site-article/copy-files.png" alt="" /></p>
+
+<h3 id="cleaning-up-the-repo">Cleaning Up the Repo</h3>
+
+<p>Now that we have the necessary files, we can delete the unnecessary ones.</p>
+<ul>
+  <li>.editorconfig</li>
+  <li>.gitattributes</li>
+  <li>.github</li>
+  <li>/docs</li>
+  <li>/test</li>
+  <li>CHANGELOG.md</li>
+  <li>minimal-mistakes-jekyll.gemspec</li>
+  <li>README.md</li>
+  <li>screenshot-layouts.png</li>
+  <li>screenshot.png</li>
+</ul>
+
+<p><img src="/images/site-article/files-to-remove.png" alt="" /></p>
+
+<h3 id="setting-up-the-gemfile">Setting up the Gemfile</h3>
+
+<p>Now that we have all required files we need to start editing some of them, open the <code class="language-plaintext highlighter-rouge">Gemfile</code> with a text editor of your choice, then replace the contents with the following.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">source</span> <span class="s2">"https://rubygems.org"</span>
+
+<span class="c1"># Hello! This is where you manage which Jekyll version is used to run.</span>
+<span class="c1"># When you want to use a different version, change it below, save the</span>
+<span class="c1"># file and run `bundle install`. Run Jekyll with `bundle exec`, like so:</span>
+<span class="c1">#</span>
+<span class="c1">#     bundle exec jekyll serve</span>
+<span class="c1">#</span>
+<span class="c1"># This will help ensure the proper Jekyll version is running.</span>
+<span class="c1"># Happy Jekylling!</span>
+
+<span class="c1"># gem "github-pages", group: :jekyll_plugins</span>
+
+<span class="c1"># To upgrade, run `bundle update`.</span>
+
+<span class="n">gem</span> <span class="s2">"jekyll"</span>
+<span class="n">gem</span> <span class="s2">"minimal-mistakes-jekyll"</span>
+
+<span class="c1"># The following plugins are automatically loaded by the theme-gem:</span>
+<span class="c1">#   gem "jekyll-paginate"</span>
+<span class="c1">#   gem "jekyll-sitemap"</span>
+<span class="c1">#   gem "jekyll-gist"</span>
+<span class="c1">#   gem "jekyll-feed"</span>
+<span class="c1">#   gem "jekyll-include-cache"</span>
+<span class="c1">#</span>
+<span class="c1"># If you have any other plugins, put them here!</span>
+<span class="n">group</span> <span class="ss">:jekyll_plugins</span> <span class="k">do</span>
+<span class="k">end</span></code></pre></figure>
+
+<p>Save the file and run <code class="language-plaintext highlighter-rouge">bundle install</code> in your terminal window to install all the required ruby gems.</p>
+
+<p><img src="/images/site-article/bundle-install.png" alt="" /></p>
+
+<p>Now we are ready to setup the site using the <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+
+<h2 id="setting-up-the-site">Setting Up the Site</h2>
+
+<p>Open the <code class="language-plaintext highlighter-rouge">_config.yml</code> file in a text editor and change the fields to the correct and relevant information, making sure to uncomment the <code class="language-plaintext highlighter-rouge">remote theme</code> line, so it works properly with GitHub pages.</p>
+
+<p><img src="/images/site-article/config-1.png" alt="" /></p>
+
+<h3 id="setting-up-the-author-profile">Setting up the Author Profile</h3>
+
+<p>The author profile appears at the side of each post on your website and allows a reader to quickly find you on other platforms, it looks something like this.</p>
+
+<p><img src="/images/site-article/profile-1.png" alt="" /></p>
+
+<p>To set this up edit these fields in the config file.</p>
+
+<p><img src="/images/site-article/config-2.png" alt="" /></p>
+
+<h3 id="setting-up-the-footer">Setting Up the Footer</h3>
+
+<p>To edit the footer, change these fields in the config file.</p>
+
+<p><img src="/images/site-article/config-3.png" alt="" /></p>
+
+<h3 id="setting-defaults">Setting Defaults</h3>
+
+<p>Default are settings that are applied to every post or page on your site and it saves you time as it means you donâ€™t have to type this out each time you want to make a new post.</p>
+
+<p>Below is what I use and recommend as defaults for posts.</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">defaults</span><span class="pi">:</span>
+  <span class="c1"># _posts</span>
+  <span class="pi">-</span> <span class="na">scope</span><span class="pi">:</span>
+      <span class="na">path</span><span class="pi">:</span> <span class="s2">"</span><span class="s">"</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">posts</span>
+    <span class="na">values</span><span class="pi">:</span>
+      <span class="na">layout</span><span class="pi">:</span> <span class="s">single</span>
+      <span class="na">author_profile</span><span class="pi">:</span> <span class="no">true</span>
+      <span class="na">toc</span><span class="pi">:</span> <span class="no">true</span>
+      <span class="na">toc_label</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Contents"</span>
+      <span class="na">toc_icon</span><span class="pi">:</span> <span class="s2">"</span><span class="s">fab</span><span class="nv"> </span><span class="s">fa-fw</span><span class="nv"> </span><span class="s">fa-th-list"</span></code></pre></figure>
+
+<p><img src="/images/site-article/config-4.png" alt="" /></p>
+
+<h2 id="pushing-the-site-to-github">Pushing the site to GitHub</h2>
+
+<p>Now that we have built the basics of the site we can push the files to GitHub, to do this we need to first add all the files with:</p>
+
+<figure class="highlight"><pre><code class="language-powershell" data-lang="powershell"><span class="nf">git</span><span class="w"> </span><span class="nx">add</span><span class="w"> </span><span class="o">.</span></code></pre></figure>
+
+<p><img src="/images/site-article/git-1.png" alt="" /></p>
+
+<p>Then we need to <code class="language-plaintext highlighter-rouge">commit</code> the files with a message that tells you what you have changed since the last commit, since this is our first commit we can just have a commit message that says, <code class="language-plaintext highlighter-rouge">initial commit</code></p>
+
+<figure class="highlight"><pre><code class="language-powershell" data-lang="powershell"><span class="nf">git</span><span class="w"> </span><span class="nx">commit</span><span class="w"> </span><span class="nt">-m</span><span class="w"> </span><span class="s2">"initial commit"</span></code></pre></figure>
+
+<p><img src="/images/site-article/git-2.png" alt="" /></p>
+
+<p>Then finally we need to push the committed changes to GitHub with <code class="language-plaintext highlighter-rouge">git push</code>, if this is your first time using git on Windows it may ask you to sign into GitHub before it can push the changes.</p>
+
+<figure class="highlight"><pre><code class="language-powershell" data-lang="powershell"><span class="nf">git</span><span class="w"> </span><span class="nx">push</span><span class="w"> </span><span class="nx">origin</span></code></pre></figure>
+
+<p><img src="/images/site-article/git-3.png" alt="" /></p>
+
+<p>If all went well you should now see your files in your GitHub Repo, and a small notification under the environments tab that says <code class="language-plaintext highlighter-rouge">github-pages</code> Active.</p>
+
+<p><img src="/images/site-article/git-4.png" alt="" /></p>
+
+<p>Your site is now live and you can view it by going to <a href="https://71xx.github.io">username.github.io</a></p>
+:ET

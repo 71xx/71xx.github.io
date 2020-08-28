@@ -21,6 +21,10 @@
 <lastmod>2020-08-26T12:49:23+01:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/history/Bismarck-German-Empire/</loc>
+<lastmod>2020-08-26T17:00:23+01:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/archive/</loc>
 </url>
 <url>
@@ -40,6 +44,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/compsci/site-guide</loc>
 </url>
 <url>
 <loc>http://localhost:4000/math/</loc>
