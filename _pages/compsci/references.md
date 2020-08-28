@@ -18,3 +18,5 @@ Here you can find my guide on seting up a Jekyll site with github pages - [Here]
 [DevHints Jekyll Cheat Sheet](https://devhints.io/jekyll) - Quite frankly this site would not be here without this cheat sheet
 
 [MathJax Jekyll Implementation](http://zjuwhw.github.io/2017/06/04/MathJax.html) - Helped with getting euqation support
+
+[Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - Helpful for remembering markdown syntax
