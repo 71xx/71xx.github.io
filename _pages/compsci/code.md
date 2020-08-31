@@ -59,6 +59,8 @@ while i >= 0:
 
 
 ### Name Program - Python
+[GitHub Link](https://github.com/71xn/IB-CompSci-Code-Log/blob/master/name-class-1.py)
+
 {% highlight python %}
 # Finn Lestrange - 2020
 # Name program
