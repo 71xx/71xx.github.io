@@ -14,6 +14,7 @@ Currently this page is just showing samples of what my code page will look like 
 
 
 ### Coffee or Soda Logic Spark - Python
+[GitHub Link](https://github.com/71xn/IB-CompSci-Code-Log/blob/master/python/coffee-soda-logic-spark.py)
 
 {% highlight python linenos%}
 # Finn Lestrange 2020
@@ -61,7 +62,7 @@ while i >= 0:
 ### Name Program - Python
 [GitHub Link](https://github.com/71xn/IB-CompSci-Code-Log/blob/master/name-class-1.py)
 
-{% highlight python %}
+{% highlight python linenos %}
 # Finn Lestrange - 2020
 # Name program
 
@@ -122,7 +123,4 @@ if json_convert["cod"] != "404":
 else:
     print(" City Not Found ")
 
-
-
-###
 {% endhighlight %}
