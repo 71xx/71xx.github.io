@@ -23,7 +23,7 @@ Here you can find my guide on seting up a Jekyll site with github pages - [Here]
 
 ## Sublime Text
 
-Sublime text is my prefered text editor and below is a link to the theme and the extensions that I use:
+[Sublime Text](https://www.sublimetext.com/3) is my prefered text editor and below is a link to the theme and the extensions that I use:
 
 ![](images/header-images/notes.png)
 
