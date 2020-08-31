@@ -10,7 +10,9 @@ toc_icon: "fab fa-fw fa-th-list"
 
 ## Code Page
 
-Currently this page is just showing samples of what my code page will look like but eventually it will have a gigantic table of contents and external links to my code on github / gitlab etc.
+Here is the GitHub link to my actual code repo - [**Here**](https://github.com/71xn/IB-CompSci-Code-Log)
+
+Currently this page is just showing samples of what my code page will look like but eventually it will have a gigantic table of contents and external links to my code on github / gitlab etc. This is more of a place to show off the code I have enjoyed to write, the rest of thje code will be in the [GitHub Repo](https://github.com/71xn/IB-CompSci-Code-Log)
 
 
 ### Coffee or Soda Logic Spark - Python
