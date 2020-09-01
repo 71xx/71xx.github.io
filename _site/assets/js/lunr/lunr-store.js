@@ -34,4 +34,10 @@ var store = [{
         "tags": ["germany"],
         "url": "http://localhost:4000/history/Bismarck-German-Empire/",
         "teaser": null
+      },{
+        "title": "Wilhelm’s Germany - 1890-1914",
+        "excerpt":"Kaiser Wilhelm II At heart of German state With Bismarck’s dismissal Wilhelm asserted more influence in domestic and foreign affairs Took advice from courtiers such as Philipp von Eulenberg, but ultimately wielded ultimate power 1890 – 1914 saw 4 chancellors compared to Bismarck’s 19 years. Thus Kaiser dominated the political...","categories": ["history"],
+        "tags": ["germany"],
+        "url": "http://localhost:4000/history/Wilhelms-Germany-1890-1914/",
+        "teaser": null
       }]

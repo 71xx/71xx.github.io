@@ -1,0 +1,27 @@
+I"Ÿ<ul class="toc__menu">
+  <li><a href="#what-is-static-site-and-why-jekyll">What is Static Site and why Jekyll</a></li>
+  <li><a href="#prerequisites">Prerequisites</a></li>
+  <li><a href="#creating-a-repo">Creating a Repo</a>
+    <ul>
+      <li><a href="#cloning-the-repo">Cloning the Repo</a></li>
+    </ul>
+  </li>
+  <li><a href="#installing-jekyll">Installing Jekyll</a></li>
+  <li><a href="#installing-our-theme---minimal-mistakes">Installing our Theme - Minimal Mistakes</a>
+    <ul>
+      <li><a href="#cleaning-up-the-repo">Cleaning Up the Repo</a></li>
+      <li><a href="#setting-up-the-gemfile">Setting up the Gemfile</a></li>
+    </ul>
+  </li>
+  <li><a href="#setting-up-the-site">Setting Up the Site</a>
+    <ul>
+      <li><a href="#setting-up-the-author-profile">Setting up the Author Profile</a></li>
+      <li><a href="#setting-up-the-footer">Setting Up the Footer</a></li>
+      <li><a href="#setting-defaults">Setting Defaults</a></li>
+    </ul>
+  </li>
+  <li><a href="#pushing-the-site-to-github">Pushing the site to GitHub</a></li>
+  <li><a href="#creating-your-first-post">Creating Your First Post</a></li>
+  <li><a href="#conclusions">Conclusions</a></li>
+</ul>
+:ET
