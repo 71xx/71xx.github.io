@@ -1,0 +1,28 @@
+I"j<p>This is a page where I will have a directory of links grouped by category of things I have used and found useful, enjoy!</p>
+
+<h2 id="jekyll-and-github-pages-setup-guide">Jekyll and GitHub Pages Setup Guide</h2>
+
+<p>Here you can find my guide on seting up a Jekyll site with github pages - <a href="/compsci/site-guide">Here</a></p>
+
+<h2 id="web-dev">Web Dev</h2>
+
+<p><a href="https://devhints.io/jekyll">DevHints Jekyll Cheat Sheet</a> - Quite frankly this site would not be here without this cheat sheet</p>
+
+<p><a href="http://zjuwhw.github.io/2017/06/04/MathJax.html">MathJax Jekyll Implementation</a> - Helped with getting euqation support</p>
+
+<p><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheat Sheet</a> - Helpful for remembering markdown syntax</p>
+
+<h2 id="sublime-text">Sublime Text</h2>
+
+<p><a href="https://www.sublimetext.com/3">Sublime Text</a> is my prefered text editor and below is a link to the theme and the extensions that I use:</p>
+
+<p><img src="images/header-images/notes.png" alt="" /></p>
+
+<p><a href="https://github.com/dempfi/ayu">Ayu Theme</a></p>
+
+<p><a href="https://facelessuser.github.io/MarkdownPreview/">Markdown Preview</a></p>
+
+<p><a href="https://packagecontrol.io/packages/SideBarEnhancements">Sidebar Enhancements</a></p>
+
+<p><a href="https://www.kite.com/">Kite AI Powered Python Intellisense</a></p>
+:ET

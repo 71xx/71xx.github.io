@@ -1,0 +1,54 @@
+I"Ö<p>This is a page where I will have a directory of links grouped by category of things I have used and found useful, enjoy!</p>
+
+<h2 id="jekyll-and-github-pages-setup-guide">Jekyll and GitHub Pages Setup Guide</h2>
+
+<p>Here you can find my guide on seting up a Jekyll site with github pages - <a href="/compsci/site-guide">Here</a></p>
+
+<h2 id="web-dev">Web Dev</h2>
+
+<p><a href="https://devhints.io/jekyll">DevHints Jekyll Cheat Sheet</a> - Quite frankly this site would not be here without this cheat sheet</p>
+
+<p><a href="http://zjuwhw.github.io/2017/06/04/MathJax.html">MathJax Jekyll Implementation</a> - Helped with getting euqation support</p>
+
+<p><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheat Sheet</a> - Helpful for remembering markdown syntax</p>
+
+<h2 id="visual-studio-code">Visual Studio Code</h2>
+
+<p><a href="https://code.visualstudio.com/">Visual Studio Code</a> is my favorite text editor for moderate tasks, like updating this site, though I still use PyCharm and Visual Studio for heavier work. Below is a list of the extensions and the theme I use.</p>
+
+<p><img src="/images/compsci-images/vscode-1.png" alt="" /></p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=silofy.hackthebox">The Hackthebox VSCode Theme</a> - Decent colors with vibrant code highlighting</p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens">GitLens</a> - Great Git plugin that allows for easier git integration</p>
+
+<p><img src="/images/compsci-images/vscode-git-lens.png" alt="" /></p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">Prettier</a> - Nice code formatter that works with most langauges</p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare">Live Share</a> - Microsoft extension that allows you to collaboarte in real time on code projects</p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools">SQLTools</a> - Fantastic extension for working with SQL databases</p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh">Remote - SSH</a> - Allows you to work on remote code hosted on a SSH server</p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> - Extension that allows you to preview webpages in real time</p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap">Code Snap</a> - One of my favorite extensions by far as it allows you to take really nice looking screenshots of your code</p>
+
+<p><img src="/images/compsci-images/vscode-snap.png" alt="" /></p>
+
+<h2 id="sublime-text">Sublime Text</h2>
+
+<p><a href="https://www.sublimetext.com/3">Sublime Text</a> is my prefered text editor and below is a link to the theme and the extensions that I use:</p>
+
+<p><img src="/images/header-images/notes.png" alt="" /></p>
+
+<p><a href="https://github.com/dempfi/ayu">Ayu Theme</a></p>
+
+<p><a href="https://facelessuser.github.io/MarkdownPreview/">Markdown Preview</a></p>
+
+<p><a href="https://packagecontrol.io/packages/SideBarEnhancements">Sidebar Enhancements</a></p>
+
+<p><a href="https://www.kite.com/">Kite AI Powered Python Intellisense</a></p>
+:ET
