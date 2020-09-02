@@ -14,7 +14,7 @@ excerpt: Wilhelm’s Germany - 1890-1914 - Summarization
 * 1890 – 1914 saw 4 chancellors compared to Bismarck’s 19 years.
 * Thus Kaiser dominated the political process
 
-Personality
+## Personality
 * Feared Socialism
 * Violently anti-semitic
 * Suffered fits of rage
@@ -24,40 +24,39 @@ Personality
 * Fredrich Naumann (1900) wrote “There is no stronger force in the Germany of today than Kaiserdom”
 * Maximilian Harden said in 1902 that “the Kaiser is his own Reich Chancellor. All the important political decisions of the past twelve years have been made by him”.
 
-New Industries
+## New Industries
 * Germany dominated many of the new industries of the time. By 1890 Germany produced around 90% of world’s dyestuffs, and dominated drugs manufacture
 * Led the world in production of variety of chemicals useful for fertiliser
 * Germany had abundance of potash and coal – raw materials that made such industries possible
 
-Changes in Education
+## Changes in Education
 * Production of industries such as chemicals required specialization
 * High quality technical education
 * Technical schools given same status as university
 * Much more education experience 
 
-Economic and Social Change
+## Economic and Social Change
 * Cartels
 * To reduce risk investors encouraged the creation of cartels which would reduce competition and fix prices and production levels
 * All major industries dominated by cartels
 * By 1905 306 cartels dominating industrial production in goods from cement to chemicals
 * This growing power meant that they could not be ignored by government
 * Rapid Industrialization
-* In 1882 – 42.5% of Germans employed in industry and trade with 42.5% in agriculture
-* By 1907 56.2% in industry with only 28.6 in agriculture
-* Proportion living in cities with a population over 100,000 grew from 4.8% in 1871 to 21.3% in 1911
-
+	* In 1882 – 42.5% of Germans employed in industry and trade with 42.5% in agriculture
+	* By 1907 56.2% in industry with only 28.6 in agriculture
+	* Proportion living in cities with a population over 100,000 grew from 4.8% in 1871 to 21.3% in 1911
 * Agriculture
-* Overproduction and foreign competitors
-* Increased tariffs, “alliance of steel and rye”
+	* Overproduction and foreign competitors
+	* Increased tariffs, “alliance of steel and rye”
 
-Growth in Socialism - 1890-1905
+## Growth in Socialism - 1890-1905
 * Bismarck’s anti-socialism law lapsed
 * 1890 socialist SPD (Social Democratic Party) won nearly 1.5mmillion votes and 35 seats in Reichstag
 * Party split between those who wanted parliamentary democracy and those who argued that revolutionary means were the only real alternative.
 * Erfurt Programme of 1891 affirmed the doctrine of the SPD asmMarxist which meant they believed that the capitalist system was bound to collapse and therefore there was no need for violent revolution but neither should the SPD involve itself in middle-class politics.
 * Socialist Revisionists argued that advancements could be mad within the political system. By 1899 these views had gained acceptance within the party ranks
 
-Trade Union Movement
+## Trade Union Movement
 * Reformism was most importantly put forward by the leadership of the trade union movement
 * Their power was considerable
 * 1890 – a central organization was formed and it rejected the revolutionary stance of the SPD and argued in favour of political representation as the means by which workers could improve their standard of living and conditions of work.
@@ -65,7 +64,7 @@ Trade Union Movement
 * 4 chancellors did not however follow a consistent policy towards socialists
 
 
-Four Chancellors
+## Four Chancellors
 * Leo Von Caprivi 1890 - 94
 	* Tasked with social reform
 * Prince Zu Hohenlohe – Schillingsfurst 1894 - 1900
