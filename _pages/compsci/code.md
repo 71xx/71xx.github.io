@@ -62,11 +62,11 @@ while i >= 0:
 
 
 ### Name Program - Python
-[GitHub Link](https://github.com/71xn/IB-CompSci-Code-Log/blob/master/name-class-1.py)
+[GitHub Link](https://github.com/71xn/IB-CompSci-Code-Log/blob/master/python/name-class-1.py)
 
 {% highlight python linenos %}
-# Finn Lestrange - 2020
-# Name program
+# Finn Lestrange - 02/09/2020
+# Name Program - A simple hello program that shows you the weather and date, and how long till you're going to graduate 
 
 # https://www.geeksforgeeks.org/python-find-current-weather-of-any-city-using-openweathermap-api/ - This is where I got the weather API code
 
