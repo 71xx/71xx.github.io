@@ -44,7 +44,7 @@ excerpt: Europe’s World Supremacy 1871 - 1914
 *    The Ottoman Empire in the 1850’s
         *   Major European powers all had relation to the Ottoman empire
         *   The capulations - special rights granted by the empire, meant that turkey could not levy a tax on imported goods
-        *   The “sick man” of Europe - Turkey called sick man of europe, due to it’s long decline
+        *   The “sick man”(644) of Europe - Turkey called sick man of europe, due to it’s long decline
         *   The Crimean War - Turks on winning side, though they won it exposed their military and political weakness, pointed need of better organisation
         *   Outcome of war proved politically superiority of England and France
         *   Turkish reformers wanted to remodel turkey's political system.
@@ -86,6 +86,13 @@ excerpt: Europe’s World Supremacy 1871 - 1914
     *   Rise in Indian Nationalism, which eventually forced the British to leave
 
 
-## Rise of Imperialism in Asia
+### Rise of Imperialism in Asia
 
 ![alt_text](/images/history/Imperialism-in-Asia-Timeline.jpg)
+
+
+## Refrences and Sources
+
+`Palmer, R R, et al. A History of the Modern World / [Vol. 2], Since 1815. Boston, Mcgraw-Hill, Cop, 2007.`
+
+‌
