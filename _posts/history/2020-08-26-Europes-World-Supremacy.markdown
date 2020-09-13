@@ -39,13 +39,13 @@ excerpt: Europe’s World Supremacy 1871 - 1914
     *   The Hawaiian Islands - american intervention, us invested in the pineapple and sugar industries there
 
 
-## The Dissolution of th Ottoman Empire
+## The Dissolution of the Ottoman Empire
 
 *    The Ottoman Empire in the 1850’s
-    *   Major European powers all had relation to the Ottoman empire
-    *   The capulations - special rights granted by the empire, meant that turkey could not levy a tax on imported goods
-    *   The “sick man” of Europe - Turkey called sick man of europe, due to it’s long decline
-    *   The Cirmean War - Turks on winning side, though they won it exposed their military and political weakness, pointed need of better organisation
+        *   Major European powers all had relation to the Ottoman empire
+        *   The capulations - special rights granted by the empire, meant that turkey could not levy a tax on imported goods
+        *   The “sick man” of Europe - Turkey called sick man of europe, due to it’s long decline
+        *   The Crimean War - Turks on winning side, though they won it exposed their military and political weakness, pointed need of better organisation
         *   Outcome of war proved politically superiority of England and France
         *   Turkish reformers wanted to remodel turkey's political system.
 
