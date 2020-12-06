@@ -6,12 +6,6 @@ title: Physics HL Notes / Work
 ---
 
 
-All the Physics notes below are categorised by date: 
+Below are links to the latex pdf of my notes, organized by semester: 
 
-<ul>
-  {% for post in site.categories.physics %}
-    {% if post.url %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
+[Semester 1 Notes](https://github.com/71xx/71xx.github.io/raw/master/pdf/physics.pdf)
