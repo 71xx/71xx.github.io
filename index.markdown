@@ -22,12 +22,12 @@ feature_row:
     url: "compsci"
     btn_label: "Computer Science"
     btn_class: "btn--primary"
-  - image_path: /images/header-images/math.png
+  - image_path: /images/header-images/personal.png
     alt: "notes"
-    title: "Math AA"
-    excerpt: "This is where you will find all of my Notes taken throughout the IB Math AA HL course."
-    url: "math"
-    btn_label: "Math Page"
+    title: "Personal Work"
+    excerpt: "Here is a link to my personal work."
+    url: "https://71xn.github.io"
+    btn_label: "71xn.github.io"
     btn_class: "btn--primary"
   - image_path: /images/header-images/physics.jpg
     title: "Physics"

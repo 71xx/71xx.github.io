@@ -2,10 +2,8 @@
 main:
   - title: "Computer Science"
     url: /compsci/
-  - title: "Math"
-    url: /math/
-  - title: "History"
-    url: /history
+  - title: "Personal Work"
+    url: https://71xn.github.io
   - title: "Physics"
     url: /physics/
   - title: "Archive"
