@@ -4,7 +4,7 @@ title:  "Semester 1 - Vocab"
 date:   2020-12-08 13:00:23 +0100
 categories: compsci
 tags: vocab
-excerpt: Bismarck and the German Empire Summarization 
+excerpt: Semester 1 Vocabulary
 ---
 
 # Semester 1 Vocabulary
